@@ -21,7 +21,13 @@ namespace Akimov_Onuchin
 
         static double Divide(double a, double b)
         {
-            return 0;
+            if (b != 0)
+                return a / b;
+            else
+            {
+                Console.WriteLine("Error. Return zero\n");
+                return 0;
+            }
         }
 
         static double numToPow(double a, double b)
