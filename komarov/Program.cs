@@ -26,7 +26,10 @@ namespace Akimov_Onuchin
 
         static double numToPow(double a, double b)
         {
-            return 0;
+            if (a == 0 && b == 0)
+                return 0;
+            else
+                return Math.Pow(a, b);
         }
 
         static int Main()
