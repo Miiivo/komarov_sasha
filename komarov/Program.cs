@@ -6,7 +6,10 @@ namespace Akimov_Onuchin
     {
         static void EnterTwoNumbers(ref double a, ref double b)
         {
-            
+            Console.WriteLine("Enter two int numbers:");
+
+            a = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
         }
 
         static double Addition(double a, double b)
