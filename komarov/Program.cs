@@ -16,7 +16,7 @@ namespace Akimov_Onuchin
 
         static double Subtraction(double a, double b)
         {
-            return 0;
+            return a - b;
         }
 
         static double Divide(double a, double b)
